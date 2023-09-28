@@ -1,4 +1,2 @@
-/vendor/composer
-/vendor/htmlburger
 /src/node_modules
 .DS_Store
