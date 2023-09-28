@@ -1,0 +1,25 @@
+{
+    "name": "ismaeel/post-slider",
+    "description": "This is post slider",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Ismaeel\\PostSlider\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ismaeel Yaghoubi"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "htmlburger/carbon-fields-plugin": "dev-master"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
