@@ -58,7 +58,7 @@ class is_sticky_socials{
 
     function register_styles(){
         add_action( 'wp_enqueue_scripts', array($this, 'enqueue_style'));
-        add_action( 'wp_enqueue_scripts', array($this, 'enqueue_script'));
+        add_action( 'wp_footer', array($this, 'enqueue_script'));
     }
 
     function activate(){

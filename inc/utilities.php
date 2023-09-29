@@ -20,6 +20,6 @@ function crb_load() {
     \Carbon_Fields\Carbon_Fields::boot();
 }
 
-function ss_get_field($item){
-    return carbon_get_theme_option($item);
-}
+// function ss_get_field($item){
+//     return carbon_get_theme_option($item);
+// }

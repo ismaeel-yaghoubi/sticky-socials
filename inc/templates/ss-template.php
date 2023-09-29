@@ -1,10 +1,11 @@
 <?php
+    get_header();
     // check if we're not in the backend
    if (!is_admin() && !is_login()):
-    $instagram = ss_get_field('ss_instagram_url');
-    $facebook = ss_get_field('ss_facebook_url');
-    $x = ss_get_field('ss_x_url');
-    $whatsApp = ss_get_field('ss_whatsapp_url');
+    $instagram = get_option('_ss_instagram_url');
+    $facebook = get_option('_ss_facebook_url');
+    $x = get_option('_ss_x_url');
+    $whatsApp = get_option('_ss_whatsapp_url');
 ?>
         <div class="ss-wrapper">
             <div class="ss-container">
@@ -49,4 +50,3 @@
         </div>
     <?php 
 endif;
-
